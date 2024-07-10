@@ -1,0 +1,536 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* smsapisi_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-04 16:48+0000\n"
+"PO-Revision-Date: 2024-04-05 09:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && "
+"n%100<=4 ? 2 : 3);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_needaction
+msgid "Action Needed"
+msgstr "Akcija potrebna"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__sms_api_token_notification_action
+msgid ""
+"Action to be performed when the number of credits is less than min_tokens."
+msgstr "Akcija, ki se izvede ko je kreditov manj kot min_tokens."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__activity_ids
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Dekoracija izjemne aktivnosti"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__activity_state
+msgid "Activity State"
+msgstr "Stanje aktivnosti"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ikona vrste aktivnosti"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid ""
+"Add the sender's number in your profile on the SMSapi.si page and confirm it "
+"according to the instructions."
+msgstr ""
+"V svoj profil na strani SMSapi.si dodajte številko pošiljatelja in jo "
+"potrdite po navodilih."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_attachment_count
+msgid "Attachment Count"
+msgstr "Število prilog"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__sms_api_si_connection_status
+msgid "Connection status"
+msgstr "Status povezave"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Contact SMSapi.si."
+msgstr "Kontaktirajte SMSapi.si."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Country code format invalid"
+msgstr "Koda države ni veljavna"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Country code not supported."
+msgstr "Koda države ni podprta."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Error on the SMSapi.si page due to technical problems."
+msgstr "Napaka na strani SMSapi.si zaradi tehničnih težav."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_follower_ids
+msgid "Followers"
+msgstr "Sledilci"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Sledilci (partnerji)"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome ikona npr. fa-tasks"
+
+#. module: smsapisi_connector
+#: model_terms:ir.ui.view,arch_db:smsapisi_connector.iap_account_view_form
+msgid "From"
+msgstr "Številka pošiljatelja"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__has_message
+msgid "Has Message"
+msgstr "Ima sporočilo"
+
+#. module: smsapisi_connector
+#: model:ir.model,name:smsapisi_connector.model_iap_account
+msgid "IAP Account"
+msgstr "IAP Račun"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__activity_exception_icon
+msgid "Icon"
+msgstr "Ikona"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Ikona za označevanje izjemne aktivnosti."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Če je označeno, nova sporočila zahtevajo vašo pozornost."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__message_has_error
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Če je označeno, imajo nekatera sporočila napako pri dostavi."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid ""
+"If you have purchased your own number so that you can receive replies to it. "
+"It may not be valid yet."
+msgstr ""
+"Če ste kupili lastno številko, da lahko nanjo prejemate odgovore. Morda še "
+"ni veljavna."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Incorrect username or password."
+msgstr "Nepravilno uporabniško ime ali geslo."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_is_follower
+msgid "Is Follower"
+msgstr "Je sledilec"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Glavna priloga"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_has_error
+msgid "Message Delivery error"
+msgstr "Message Delivery error"
+
+#. module: smsapisi_connector
+#: model:ir.model,name:smsapisi_connector.model_mail_notification
+msgid "Message Notifications"
+msgstr "Obvestila o sporočilih"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Message error."
+msgstr "Sporočilo je predolgo ali prazno."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_ids
+msgid "Messages"
+msgstr "Sporočila"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__sms_api_min_tokens
+msgid ""
+"Minimum credit level for alerting purposes. If it is 0 or a negative number, "
+"the alarming is disabled."
+msgstr ""
+"Minimalen nivo kreditov za potrebe alarmiranja. Če je 0 ali negativno "
+"število je alarmiranje izključeno."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__sms_api_min_tokens
+msgid "Minimum tokens"
+msgstr "Minimalno število kreditov"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Rok moje aktivnosti"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Rok za naslednjo aktivnost"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__activity_summary
+msgid "Next Activity Summary"
+msgstr "Povzetek naslednje aktivnosti"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__activity_type_id
+msgid "Next Activity Type"
+msgstr "Naslednja vrsta aktivnosti"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Not enough credits."
+msgstr "Ni dovolj kreditov."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Število akcij"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_has_error_counter
+msgid "Number of errors"
+msgstr "Število napak"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Število sporočil, ki zahtevajo ukrepanje"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Število sporočil z napako pri dostavi"
+
+#. module: smsapisi_connector
+#: model:ir.model,name:smsapisi_connector.model_sms_sms
+msgid "Outgoing SMS"
+msgstr "Odhodni SMS"
+
+#. module: smsapisi_connector
+#: model_terms:ir.ui.view,arch_db:smsapisi_connector.iap_account_view_form
+msgid "Password"
+msgstr "Geslo"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__provider
+msgid "Provider"
+msgstr "Ponudnik"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Recipient number error."
+msgstr "Napaka v številki prejemnika."
+
+#. module: smsapisi_connector
+#: model:ir.model,name:smsapisi_connector.model_sms_resend_recipient
+msgid "Resend Notification"
+msgstr "Ponovno pošlji obvestilo"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__activity_user_id
+msgid "Responsible User"
+msgstr "Odgovoren uporabnik"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Napaka pri dostavi SMSa"
+
+#. module: smsapisi_connector
+#: model_terms:ir.ui.view,arch_db:smsapisi_connector.iap_account_view_form
+msgid "SMSapi.si account"
+msgstr "SMSapi.si račun"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "SMSapi.si needs to confirm your sender ID"
+msgstr "SMSapi.si mora potrditi vaš ID pošiljatelja"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__sms_api_password
+msgid "SMSapi.si password"
+msgstr "SMSapi.si geslo"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__sms_api_username
+msgid "SMSapi.si username"
+msgstr "SMSapi.si uporabniško ime"
+
+#. module: smsapisi_connector
+#: model:ir.actions.server,name:smsapisi_connector.ir_cron_check_tokens_ir_actions_server
+#: model:ir.cron,cron_name:smsapisi_connector.ir_cron_check_tokens
+msgid "SMSapi.si: Check credit balance"
+msgstr "SMSapi.si: Preverite dobroimetje"
+
+#. module: smsapisi_connector
+#: model:ir.actions.server,name:smsapisi_connector.model_iap_account_action_low_tokens
+msgid "SMSapi.si: notify when low on credits"
+msgstr "SMSapi.si: obvesti, ko zmanjkuje kreditov"
+
+#. module: smsapisi_connector
+#: model_terms:ir.ui.view,arch_db:smsapisi_connector.mail_resend_message_view_form
+msgid "SMSapisi Error"
+msgstr "SMSapisi napaka"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__sms_api_sname
+msgid "Sender ID"
+msgstr "ID pošiljatelja"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Sender ID not verified."
+msgstr "ID pošiljatelja ni potrjen."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Sender number error."
+msgstr "Napaka v številki pošiljatelja."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Sender number not confirmed."
+msgstr "Številka pošiljatelja ni potrjena."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__sms_api_from
+msgid "Sender number or description"
+msgstr "Številka pošiljatelja ali opis"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Server error."
+msgstr "Napaka na strežniku."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_mail_notification__sms_api_error
+#: model:ir.model.fields,field_description:smsapisi_connector.field_sms_resend_recipient__sms_api_error
+#: model:ir.model.fields,field_description:smsapisi_connector.field_sms_sms__sms_api_error
+msgid "Sms Api Error"
+msgstr "Sms Api napaka"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__sms_api_from
+msgid "Sms Api From"
+msgstr "Številka pošiljatelja"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__sms_api_password
+msgid "Sms Api Password"
+msgstr "Geslo"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__sms_api_username
+msgid "Sms Api Username"
+msgstr "Uporabniško ime"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Status glede na aktivnost\n"
+"Prepozen: rok je že potekel\n"
+"Danes: Datum aktivnosti je danes\n"
+"Načrtovano: Prihodnje aktivnosti."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__sms_api_si_connection_status
+msgid "Status of the last connection test."
+msgstr "Status zadnjega preverjanja povezave."
+
+#. module: smsapisi_connector
+#: model_terms:ir.ui.view,arch_db:smsapisi_connector.iap_account_view_form
+msgid "Test Connection"
+msgstr "Preveri povezavo"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "The code must be in the format 00386 or 386"
+msgstr "Koda mora biti v obliki 00386 ali 386"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "The message is longer than 640 characters or is empty."
+msgstr "Sporočilo je daljše od 640 znakov ali pa je prazno."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "The recipient's number is not formed correctly or is empty."
+msgstr "Številka prejemnika ni pravilno tvorjena ali pa je prazna."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "The reference cannot be longer than 16 characters."
+msgstr "Referenca ne sme biti daljša od 16 znakov."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "The sender number is not formed correctly or is empty."
+msgstr "Številka pošiljatelja ni pravilno tvorjena ali pa je prazna."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "The sender number is not registered."
+msgstr "Številka pošiljatelja ni registrirana."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "The user reference is not valid."
+msgstr "Referenca uporabnika ni veljavna."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__sms_api_token_notification_action
+msgid "Token notification action"
+msgstr "Akcija za obveščanje"
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Vrsta zabeležene izjemne aktivnosti."
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Unexpected error. Check server log for more info."
+msgstr ""
+"Nepričakovana napaka. Preverite zapisnik na strežniku za več informacij."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,field_description:smsapisi_connector.field_iap_account__sms_api_use_sid
+msgid "Use SID"
+msgstr "Uporabi SID"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "User does not have enough credits."
+msgstr "Uporabnik nima dovolj kreditov."
+
+#. module: smsapisi_connector
+#: model_terms:ir.ui.view,arch_db:smsapisi_connector.iap_account_view_form
+msgid "Username"
+msgstr "Uporabniško ime"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "Validation error."
+msgstr "Napaka v validaciji."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__sms_api_sname
+msgid ""
+"You can use different IDs. Use sName to specify which one you want to use."
+msgstr ""
+"Uporabite lahko različne ID-je. S sName določite katerega želite uporabiti."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields,help:smsapisi_connector.field_iap_account__sms_api_use_sid
+msgid "You want to use your Sender ID that you specified on our website."
+msgstr ""
+"Želite uporabiti svoj ID pošiljatelja, ki ste ga določili na naši spletni "
+"strani."
+
+#. module: smsapisi_connector
+#: model:ir.model.fields.selection,name:smsapisi_connector.selection__iap_account__provider__sms_api_si
+msgid "smsapi.si"
+msgstr "smsapi.si"
+
+#. module: smsapisi_connector
+#. odoo-python
+#: code:addons/smsapisi_connector/models/iap_account.py:0
+#, python-format
+msgid "smsapi.si returned an unknown error"
+msgstr "smsapi.si je vrnil nepričakovano napako"

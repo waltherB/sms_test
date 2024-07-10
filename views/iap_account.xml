@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="iap_account_view_form" model="ir.ui.view">
+        <field name="name">smsapisi.iap.account.view.form</field>
+        <field name="model">iap.account</field>
+        <field name="inherit_id" ref="iap.iap_account_view_form" />
+        <field name="arch" type="xml">
+            <!-- SMSapi.si settings -->
+            <xpath expr="//group[@name='account']" position="after">
+                <group
+                    string="SMSapi.si account"
+                    name="group_sms_api_si"
+                    invisible="provider != 'sms_api_si'"
+                >
+                    <field name="service_name"/>
+                    <field name="sms_api_username" string="Username" required="provider == 'sms_api_si'"/>
+                    <field name="sms_api_password" string="Password" password="True" required="provider == 'sms_api_si'"/>
+                    <field name="sms_api_from" string="From" required="provider == 'sms_api_si'"/>
+                    <field name="sms_api_use_sid"/>
+                    <field name="sms_api_sname" invisible="sms_api_use_sid == False" required="sms_api_use_sid != False"/>
+                    <field name="sms_api_min_tokens"/>
+                    <field name="sms_api_token_notification_action" invisible="sms_api_min_tokens &lt; 1"/>
+                    <field name="sms_api_si_connection_status" invisible="sms_api_si_connection_status == False" readonly="True"/>
+                    <button name="sms_api_si_connection_test" string="Test Connection" type="object" class="oe_highlight"/>
+                </group>
+            </xpath>
+
+            <!-- Chatter -->
+            <xpath expr="//sheet" position="after">
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" groups="base.group_user"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
